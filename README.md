@@ -86,8 +86,8 @@ mission queue controller factory, it use for change mq service gently and unite 
 
   - `rabbit`: initialize rabbit mq option
 
-        - `url`: rabbitmq url,it should have protocol such as `amqp[s]://[user:password@]hostname[:port][/vhost]`
+    - `url`: rabbitmq url,it should have protocol such as `amqp[s]://[user:password@]hostname[:port][/vhost]`
 
-        - `channel`: rabbitmq channel instance create by module: [amqplib](https://www.npmjs.com/package/amqplib)
+    - `channel`: rabbitmq channel instance create by module: [amqplib](https://www.npmjs.com/package/amqplib)
 
   - `rocket`: initialize rocket mq option (not support yet)
